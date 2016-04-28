@@ -256,7 +256,41 @@ layout: default
             <div class="deviter"></div>
             <h3 class="title with-icon"><span class="fa fa-location-arrow cat-title"></span> Location</h3>
             <div class="grid-block">
-                <iframe src="https://www.google.com/maps/embed/v1/place?q=RuaDobomfim&key=AIzaSyD8IJUi9Me6IFi0H8ke3RP-YnH2MOJkmVo" width="100%" height="100%" frameborder="0" style="border:0"></iframe>
+                <div id="mapa" width="100%" height="100%" frameborder="0" style="border:0"></div>
+                <!--<iframe src="https://www.google.com/maps/embed/v1/place?q=RuaDobomfim&key=AIzaSyD8IJUi9Me6IFi0H8ke3RP-YnH2MOJkmVo" width="100%" height="100%" frameborder="0" style="border:0"></iframe>-->
+                <script type="text/javascript">
+                    function initialize() {
+ 
+                        // Exibir mapa;
+                        var myLatlng = new google.maps.LatLng(-8.0631495, -34.87131120000004);
+                        var mapOptions = {
+                            zoom: 17,
+                            center: myLatlng,
+                            panControl: false,
+                            mapTypeId: google.maps.MapTypeId.ROADMAP
+                        }
+                        // Exibir o mapa na div #mapa;
+                        var map = new google.maps.Map(document.getElementById(“mapa”), mapOptions);
+                        // Marcador personalizado;
+                        var image = 'https://cdn1.iconfinder.com/data/icons/gpsmapicons/blue/gpsmapicons01.png';
+                        var marcadorPersonalizado = new google.maps.Marker({
+                            position: myLatlng,
+                            map: map,
+                            icon: image,
+                            title: 'Marco Zero - Recife/PE',
+                            animation: google.maps.Animation.DROP
+                        });                        
+                    }
+                    // Função para carregamento assíncrono
+                    function loadScript() {
+                        var script = document.createElement(“script”);
+                        script.type = “text/javascript”;
+                        script.src ="http://maps.googleapis.com/maps/api/js?key=AIzaSyD8IJUi9Me6IFi0H8ke3RP-YnH2MOJkmVo&sensor=false&callback=initialize";
+                        
+                        document.body.appendChild(script);
+                    }
+                    window.onload = loadScript;
+                </script>
             </div>
         </div>
     </div>
