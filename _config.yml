@@ -28,35 +28,35 @@ author:
 #  stackoverflow: 4582127
   workHistory:
     - work1:
-      company: Finzsoft Solutions Ltd
-      location: Auckland, New Zealand
-      title: Java Developer
+      company: Kurier Brasil
+      location: Recife-PE, Brasil
+      title: Developer
       started: 2014
       duration: (2014 - Present)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      description: Desenvolvimento, Ajustes e Manutenção de sistemas legados de Recuperação de Informação, desenvolvido utilizando tecnologias como C#, Azure e Banco de Dados SQL.
     - work2:
-      company: Agfa HealthCare
-      location: Shanghai, China
-      title: Java Developer
-      started: 2012
-      duration: (2012 - 2014)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      company: Life Developers
+      location: Olinda-PE, Brasil
+      title: Web Developer
+      started: 2014
+      duration: (2014 - 2014)
+      description: Desenvolvedor Web, o trabalho consiste no desenvolvimento de websites, gerenciadores de conteúdo, criação de templates para o wordpress. Nos projetos são utilizadas as tecnologias HTML5, CSS3, JavaScrip, Framework Bootstrap, PHP e banco de dados MySQL.
     - work3:
-      company: Citigroup Services and Technology (China) Limited
-      location: Shanghai, China
-      title: Java Developer
-      started: 2009
-      duration: (2009 - 2012)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      company: FUNESO - Fundação de Ensino Superior de Olinda
+      location: Olinda-PE, Brasil
+      title: Chefe Divisão de Sistema da Informação
+      started: 2013
+      duration: (2013 - 2014)
+      description: O trabalho consiste em desenvolver um sistema web para a avaliação institucional da instituição de ensino superior FUNESO. Foi desenvolvido utilizando as tecnologias HTML5, CSS3, JavaScript, Framework Bootstrap, PHP e banco de dados MySQL. O sistema emite relatórios de resultado com gráficos utilizando a biblioteca php FPDF e PHPLOT para apresentação de gráficos.
   educationHistory:
     - education1:
-      organization: Northeastern University
-      location: Shenyang, China
-      degree: Bachelor
-      major: Software Engineering
-      started: 2005
-      duration: (2005 - 2009)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      organization: Faculdade Joaquim Nabuco - FASE
+      location: Olinda-PE, Brasil
+      degree: Bacharel
+      major: Sistema da Informação
+      started: 2012.2
+      duration: (2012.2 - 2016.2)
+      description: 
   languages:
     - language1:
       name: English
